@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=T, initial-scale=1.0">
+    <title>Cultural Fest 2024</title>
+</head>
+<body>
+    
+    <header>  
+    <h1 align = "center" > Gyan Jyoti 2024 </h1>
+    <img  src="Culture-Fest-Image-1-1024x576-1.webp"  width="400" height="400">
+    <p> This is our annually happened cultural activities. Its a two day program so everyone has to partcipate in it.
+    </p>
+    </header>
+    <section>
+        <h2>Schedule</h2>
+        <ol>
+            <li>Registration</li>
+            <li>Inaugration Ceremony</li>
+            <li>Welcome the Guest</li>
+            <li>Internal Events at Audi</li>
+            <li>External Events at Ground</li>
+        </ol>
+    </section>
+    <table border="1" style="border-collapse: collapse;">
+        <th colspan="5">Events Time Scheduling</th>
+        <tr>
+        <th> Time   </th>
+        <th> Event Name </th>
+        <th> Organiser Name </th>
+        <th> Department Type</th>
+    </tr>
+    <tr>
+        <td>10:00a.m </td>
+        <td>11:00a.m Inaugration </td>
+        <td>Director</td>
+        <td>College</td>
+    </tr>
+    <tr>
+       
+        <td>11:00 </td>
+        <td>Pop up dance</td>
+        <td>Nitanshi</td>
+        <td>Computer Science</td>
+    </tr>
+    <tr>
+        <td>1:00p.m </td>
+        <td>Music Mania </td>
+        <td>Abc</td>
+        <td>Science</td>
+    </tr>
+    <tr>
+        <td>2:00p.m </td>
+        <td>Tongue twister</td>
+        <td>Akhil</td>
+        <td>ECE</td>
+    </tr>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="FirstName">First Name:</label><br>
+            <input type="text" name="firstname" id="firstname"><br>
+            <label for="LastName">Last Name:</label><br>
+            <input type="text" name="lastname" id="lastname"><br>
+            <label for="Password">Password:</label><br>
+            <input type="password" name="Password" id="Password"><br>
+            <label for="CollegeName">College Name:</label><br>
+            <select>
+                <option Value="1"> HCST</option>
+                <option Value="2"> AEC</option>
+                <option Value="3"> HIMCS</option>
+            </select><br>
+        
+            <label for="ContactNo">Contact No:</label><br>
+            <input type="Number" name="Contact No" id="Contact No"><br>
+            <label for="Email">Email:</label><br>
+            <input type="Email" name="Email" id="Email"><br>
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <optgroup label = "Internal Events">
+                <option value="music">Music</option>
+                <option value="dance">Dance</option>
+                <option value="art">Others</option>
+            </optgroup>
+             <optgroup label = "External Events">
+                <option value="Tugowar">Tugowar</option>
+                <option value="Treasure Hunt">Treasure Hunt</option>
+                <option value="Battle Ground">Battle Ground</option>
+            </optgroup>
+            </select><br>
+            <button type = "Register"> Register Here</button>
+            <button type = "Reset"> Forgot Password</button>
+            
+
+        </fieldset>
+    </form>
+    <footer>
+        <p>&copy; 2024 College Fest</p>
+        <a href="https://hcst.edu.in/"> Check Our Website</a><br>
+        <a href="mailto:nitanshianshi@gmail.com">For Contact</a>
+    </footer>
+</body>
+   
+    </html>
+    </body
