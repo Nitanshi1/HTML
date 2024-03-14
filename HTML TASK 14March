@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML->Task</title>
+</head>
+<body bgcolor="skyblue">
+   <header>
+    <h1 align="center">Task 1</h1>
+    <nav>
+        <ul>
+            
+            <li><a href="#table">Table</a></li>
+            <li><a href="#userform">User form</a></li>
+        </ul>
+    </nav>
+   </header>
+    <table align="center" border="7" bgcolor="aliceblue" style="border-collapse: collapse;">
+          <tr>
+            <th>Team</th>
+            <th>Name & Image</th>
+            <th >Features List</th>
+            <th >Contact</th>
+          </tr>
+        <tbody>
+          <tr>
+            <th rowspan="7">ANGULAR TEAM</th>
+            <td>Ankit<img src="Image5.jpg" alt="Ankit's Picture" style="width: 90px; height: auto " align="right"></td>
+            <td>
+                <ul>
+                    <li>Comedian</li>
+                    <li>Lazy as his laptop</li>
+                    <li>Too Confused!</li>
+                </ul>
+            </td>
+            <td ><a href="https://github.com/Akki0706">Github</a>
+                <br><a href="https://www.linkedin.com/in/ankit-661901211">LinkedIn</a></td>
+          </tr>
+          <tr>
+            <td >Disha<img src="Image12.jpg" alt="Disha's Picture" style="width: 90px; height: auto" align="right"></td>
+            <td>
+                <ul>
+                    <li>Intelligent</li>
+                    <li>Helping Hand </li>
+                    <li>Doraemon</li>
+                </ul>
+            </td>
+            <td ><a href="https://github.com/DishaSachdeva-02">Github</a>
+                <br><a href="https://www.linkedin.com/in/disha-sachdeva-740122249">LinkedIn</a></td>
+          </tr>
+          <tr>          
+            <td >Vansh<img src="Image21.jpg" alt="Vansh's Picture" style="width: 90px; height: auto " align="right"></td>
+            <td>
+                <ul>
+                    <li>Good Person</li>
+                    <li>Talkative</li>
+                    <li>Jeeyan</li>
+                </ul>
+            </td>
+            <td ><a href="https://github.com/vansh8299">Github</a>
+                <br><a href="">LinkedIn</a></td>
+          </tr>
+          <tr>            
+            <td >Nitanshi<img src="Image20.jpg" alt="Nitanshi's Picture" style="width: 90px; height: auto"></td>
+            <td>
+                <ul>
+                    <li>Adventurous</li>
+                    <li>Ambitious</li>
+                    <li>Honest</li>
+                </ul>
+            </td>
+            <td><a href="https://github.com/Nitanshi1">Github</a>
+                <br><a href="https://www.linkedin.com/in/nitanshi-agarwal-023989221">LinkedIn</a></td>
+          </tr>
+        </tbody>
+      </table><br>
+    <form >
+        <fieldset>
+            <legend>User Form</legend>
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name..">
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your mail..">
+        </div><br>
+        <div>
+          <label for="enquiry">Enquiry:</label>
+          <select id="enquiry" name="enquiry">
+            <option value="Ankit">Ankit</option>
+            <option value="Disha">Disha</option>
+            <option value="Vansh">Vansh</option>
+            <option value="Nitanshi">Nitanshi</option>
+          </select>
+        </div><br>
+        <div>
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" placeholder="Write us something.."></textarea>
+        </div><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+   <footer>
+    <p>&copy; 2024 All rights reserved.</p>
+   </footer>
+</body>
+</html>
