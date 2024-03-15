@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: aliceblue;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+}
+select{
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+}
+.content{
+    text-align: center;
+    margin: 20px;
+    font-size:40px;
+    font-family: cursive;
+    font-style: italic;
+}

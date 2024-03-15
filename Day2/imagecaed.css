@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card {
     box-shadow: 0 4px 8px 0 rgba(175, 206, 96, 0.2);
     border-radius: 20px;
@@ -16,3 +17,23 @@
     justify-content: center;
     align-items: center;  
 }
+=======
+.card {
+    box-shadow: 0 4px 8px 0 rgba(175, 206, 96, 0.2);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(159, 210, 98, 0.2);
+    cursor: no-drop;
+}
+.container {
+    padding: 2px 5px;
+  }
+.abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+>>>>>>> b3451ba01ae8b62fe4aedbb11901699bada3848a

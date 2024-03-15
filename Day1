@@ -6,24 +6,27 @@
     <title>Cultural Fest 2024</title>
 </head>
 <body>
-    
     <header>  
     <h1 align = "center" > Gyan Jyoti 2024 </h1>
-    <img  src="Culture-Fest-Image-1-1024x576-1.webp"  width="400" height="400">
-    <p> This is our annually happened cultural activities. Its a two day program so everyone has to partcipate in it.nrrrrbebv
+    <center>
+    <img src="Culture-Fest-Image-1-1024x576-1.webp"  alt="Centered Image" width="400" height="400" >
+    <p><h3>This is our annually happened cultural activities. Its a two day program so everyone has to partcipate in it.</h3>
     </p>
+    </center>
     </header>
     <section>
-        <h2>Schedule</h2>
-        <ol>
+        <h2>Schedule:First Day</h2>
+        <ul>
             <li>Registration</li>
             <li>Inaugration Ceremony</li>
             <li>Welcome the Guest</li>
             <li>Internal Events at Audi</li>
+
+        <h2>Schedule:Second Day</h2>
             <li>External Events at Ground</li>
-        </ol>
+        </ul>
     </section>
-    <table border="1" style="border-collapse: collapse;">
+    <table align="center" border="1" style="border-collapse: collapse;">
         <th colspan="5">Events Time Scheduling</th>
         <tr>
         <th> Time   </th>
@@ -32,26 +35,26 @@
         <th> Department Type</th>
     </tr>
     <tr>
-        <td>10:00a.m </td>
-        <td>11:00a.m Inaugration </td>
+        <td>10:00a.m. </td>
+        <td>Inaugration </td>
         <td>Director</td>
         <td>College</td>
     </tr>
     <tr>
        
-        <td>11:00 </td>
+        <td>11:00a.m. </td>
         <td>Pop up dance</td>
         <td>Nitanshi</td>
         <td>Computer Science</td>
     </tr>
     <tr>
-        <td>1:00p.m </td>
+        <td>1:00p.m. </td>
         <td>Music Mania </td>
         <td>Abc</td>
         <td>Science</td>
     </tr>
     <tr>
-        <td>2:00p.m </td>
+        <td>2:00p.m. </td>
         <td>Tongue twister</td>
         <td>Akhil</td>
         <td>ECE</td>
@@ -61,9 +64,9 @@
         <fieldset>
             <legend>Registration Form</legend>
             <label for="FirstName">First Name:</label><br>
-            <input type="text" name="firstname" id="firstname"><br>
+            <input type="text" name="firstname" id="firstname"placeholder="firstname"><br>
             <label for="LastName">Last Name:</label><br>
-            <input type="text" name="lastname" id="lastname"><br>
+            <input type="text" name="lastname" id="lastname" placeholder="lastname"><br>
             <label for="Password">Password:</label><br>
             <input type="password" name="Password" id="Password"><br>
             <label for="CollegeName">College Name:</label><br>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading{
     color:blue;
 }
@@ -120,4 +121,128 @@ img{
     margin-left: auto;
     margin-right: auto;
 
+=======
+.heading{
+    color:blue;
+}
+
+.reg{
+    color:blue;
+    background-color: aliceblue;
+    font-size:small;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+}
+.reg:hover{
+    background-color: yellow;
+}
+
+.res{
+    color:blue;
+    background-color: aliceblue;
+    font-size:small;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.res:hover{
+    background-color: yellow;
+}
+.sel{
+    color:blueviolet;
+    background-color: aliceblue;
+    font-size:small;
+    font-family:italic;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 4px;
+    margin:1%;
+    border-radius: 5%;
+}
+.sel:focus{
+         background-color: aquamarine;
+         box-shadow: 4px 5px 12px rgba(0, 0, 0,0.9);
+        
+}
+.col:active{
+    background-color: brown;
+    color:blueviolet;
+    background-color: aliceblue;
+
+}
+.col:focus{
+    box-shadow: 4px 5px 12px rgba(0, 0, 0,0.9);
+}
+.name{
+    background-color: aquamarine;
+}
+.No
+    {
+        background-color: aquamarine;
+    }
+.lname{
+    background-color: aquamarine;
+}
+.formcol{
+    background-color: rgb(195, 214, 240);
+}
+.mail{
+    background-color: aquamarine;
+
+}
+.pass:hover{
+    background-color: aquamarine;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0,0.9);
+}
+
+.tabledesign,th,td{
+    border:10% black;
+    border-collapse: collapse;
+    width:auto;
+    height:auto;
+    text-align: center;
+}
+#abc{
+    background-color: rgb(183, 255, 0);
+}
+#color:hover{
+    background-color: beige;
+}
+#col1:hover{
+    background-color: rgb(229, 229, 13);
+}
+#col2:hover{
+    background-color: rgb(166, 197, 235);
+}
+#col3:hover{
+    background-color: rgb(239, 239, 8);
+}
+#col4:hover{
+    background-color: rgb(224, 224, 194);
+}
+
+.list{
+    list-style-type: square;
+    list-style-position: inherit;
+  
+}
+
+body{
+    background-image:url(college.jpeg);
+    background-position: center;
+    backdrop-filter: blur(50px);
+    background-repeat: no-repeat;
+    
+    background-size:50%;
+}
+img{
+    border: 10px;
+    border-radius: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+>>>>>>> b3451ba01ae8b62fe4aedbb11901699bada3848a
 }
